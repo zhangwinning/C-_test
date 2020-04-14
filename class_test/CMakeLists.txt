@@ -19,4 +19,6 @@ add_executable(18-Inherit-way 18-inherit-way.cc)
 add_executable(19-Inherit-construct-destructor 19-inherit-construct-destructor.cc)
 add_executable(20-Inherit-common-name-function 20-inherit-common-name-function.cc)
 add_executable(21-Inherit-common-static 21-inherit-common-static.cc)
-
+add_executable(22-Polymorphism-basic 22-polymorphism-basic.cc)
+add_executable(23-Polymorphism-analyse 23-polymorphism-analyse.cc)
+add_executable(24-Polymorphism-example 24-polymorphism-example.cc)
