@@ -48,7 +48,7 @@ public:
  * 2. 子类要重写父类中的虚函数
  *
  * 动态多态的使用
- * 父类的引用或者指针执行子类对象
+ * 父类的引用或者指针指向子类对象
  */
 void doSpeak(Animal &animal) {
     animal.speak();
