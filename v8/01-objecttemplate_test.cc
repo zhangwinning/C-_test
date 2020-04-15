@@ -45,7 +45,7 @@ int main(int argc, char *argv[]) {
     bool b = val->IsName();
     String::Utf8Value utf8_value{isolate_, val};
 
-    std::cout << "hello"  "    " << a << b << endl;
+    std::cout << "hello"  "    " << a <<","<< b << endl;
 
     cout << *utf8_value << endl;
 
