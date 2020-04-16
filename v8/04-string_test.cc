@@ -23,10 +23,11 @@ int main(int argc, char *argv[]) {
     Local<String> str = String::NewFromUtf8(isolate_,
                                             prop_name,
                                             NewStringType::kNormal,
-                                            10).ToLocalChecked();
+                                            1).ToLocalChecked();
     // String::Utf8Value 可以把一个对象 str, 解码成 UTF-8 的字符数组，如果想
     // 打印的话是十分有用的。
     String::Utf8Value value(isolate_, str);
     cout << *value << endl;
     cout << str->Length() << endl;  // 打印字符串的长度
+    cout << str->Utf8Length(isolate_) << endl;  //
 }

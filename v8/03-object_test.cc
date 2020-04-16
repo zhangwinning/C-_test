@@ -24,6 +24,6 @@ int main(int argc, char *argv[]) {
 //    Handle<Context> context = Context::New(isolate_);
 //    Context::Scope context_scope(context);
 
-    v8::internal::Heap
+//    v8::internal::Heap
 //    cout << obj.ptr() <<endl;
 }
